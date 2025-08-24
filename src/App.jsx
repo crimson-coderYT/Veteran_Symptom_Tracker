@@ -15,7 +15,7 @@ function App() {
     <Outlet />
       <div>
         <div>
-          <img src='./public/vetlogo.png' className="logo react" id='vetlogo'/>
+          <img src='../public/vetlogo.png' className="logo react" id='vetlogo'/>
           <h1>SYMPTOM TRACKER</h1>
         </div>
         <div id='title'>

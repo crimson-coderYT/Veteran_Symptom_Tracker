@@ -16,12 +16,12 @@ export default defineConfig({
     "theme_color": "#800000",
     "icons": [
         {
-            "src":"/public/vetlogo.png",
+            "src":"/vetlogo.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src":"/public/vetlogo.png",
+            "src":"/vetlogo.png",
             "sizes": "512x512",
             "type": "image/png"
         }

@@ -7,14 +7,14 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest:{
-    "name": "VA Symptom Log Tracker",
-    "short_name" : "VA symptom log",
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#8B0000",
-    "background_color":"#ffffff",
-    "theme_color": "#800000",
-    "icons": [
+    name: "VA Symptom Log Tracker",
+    short_name : "VA symptom log",
+    start_url: ".",
+    display: "standalone",
+    theme_color: "#8B0000",
+    background_color:"#ffffff",
+    theme_color: "#800000",
+    icons: [
         {
             "src":"/vetlogo.png",
             "sizes": "192x192",
@@ -28,5 +28,4 @@ export default defineConfig({
     ]
       }
     })
-  ],
-})
+  ],})

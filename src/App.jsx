@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Outlet, Link } from "react-router-dom";
+import vetlogo from './resources/vetlogo.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
     <Outlet />
       <div>
         <div>
-          <img src='./resources/vetlogo.png' className="logo react" id='vetlogo'/>
+          <img src={vetlogo} className="logo react" id='vetlogo'/>
           <h1>SYMPTOM TRACKER</h1>
         </div>
         <div id='title'>

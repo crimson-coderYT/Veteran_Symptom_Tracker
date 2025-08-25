@@ -11,9 +11,9 @@ export default defineConfig({
     short_name : "VA symptom log",
     start_url: ".",
     display: "standalone",
-    theme_color: "#8B0000",
+    theme_color: "#ffffffff",
     background_color:"#ffffff",
-    theme_color: "#800000",
+    theme_color: "#ffffffff",
     icons: [
         {
             "src":"/vetlogo.png",

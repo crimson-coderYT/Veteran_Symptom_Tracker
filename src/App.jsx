@@ -15,7 +15,7 @@ function App() {
     <Outlet />
       <div>
         <div>
-          <img src='../public/vetlogo.png' className="logo react" id='vetlogo'/>
+          <img src='./resources/vetlogo.png' className="logo react" id='vetlogo'/>
           <h1>SYMPTOM TRACKER</h1>
         </div>
         <div id='title'>
@@ -36,7 +36,7 @@ function App() {
         </ul>
       </div>
       <button id='logs'>Logs</button>
-     <Link to="/pdfcreation"> <button id='pdf'>PDFs</button></Link>
+     <Link to="/pdfcreation"><button id='pdf'>PDFs</button></Link>
       <button id="settings">Settings</button>
     </>
   )

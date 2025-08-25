@@ -48,9 +48,10 @@ function CreateLog() {
                 max="10"
                 value={soverity}
                 onChange={(e) =>setSoverity(e.target.value)}/>
+                <p>Scale from 1-10</p>
             </div>
             <div>
-                <label>Symptoms: </label>
+                <label>Notes: </label>
                 <textarea
                 value={notes}
                 onChange={(e) =>setNotes(e.target.value)}

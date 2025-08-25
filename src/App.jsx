@@ -38,7 +38,7 @@ function App() {
       </div>
       <button id='logs'>Logs</button>
      <Link to="/pdfcreation"><button id='pdf'>PDFs</button></Link>
-      <button id="settings">Settings</button>
+      <Link to='/settings'><button id="settings">Settings</button></Link>
     </>
   )
 }

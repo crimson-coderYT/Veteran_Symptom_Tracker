@@ -33,7 +33,7 @@ function PDF() {
      doc.setFontSize(12);
     let y = 72
     logs.forEach((log, index) => {
-        doc.text(`${log.recordedAt} - ${log.name}(Soverity ${log.severity})`,
+        doc.text(`${log.recordedAt} - ${log.name}(Soverity: ${log.soverity})`,
             10, y
         )
         let notes = doc.splitTextToSize(`Notes: ${log.notes}`,180 )
@@ -49,7 +49,7 @@ function PDF() {
     <form onSubmit={handleCreate}>
         <h2>Please enter personal infomration Before PDF</h2>
         <input placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
-                <input placeholder="Name" value={ssnLast4} onChange={e => setssnLast4(e.target.value)} />
+                <input placeholder="Last 4 of SSN" value={ssnLast4} onChange={e => setssnLast4(e.target.value)} />
                 <input placeholder="Date of Birth" value={dob} onChange={e => setDOB(e.target.value)} />
                 <input placeholder="Address" value={address} onChange={e => setaddress(e.target.value)}  />
                 <input placeholder="Phone" value={phone} onChange={e => setphone(e.target.value)} />
@@ -58,7 +58,7 @@ function PDF() {
     </form>
     <p>Disclaimer: Provide your Personal info at your own discretion. This information is only used to generate your PDf and not stored in any way, you 
         do not have to enter any information you do not want to as well as we do not store any information or are responsible for any information on this page.
-        Once you refresh the page this information is PERMANETLY cleared and never saved locally to your machine. Fill out this section at your  </p>
+        Once you refresh the page this information is PERMANETLY cleared and never saved locally to your machine. </p>
     </>
   )
 }

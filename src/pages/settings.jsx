@@ -7,7 +7,6 @@ function Settings() {
   return (
     <>
     <Link to='/'><button>Back</button></Link>
-        <h3>Coming Soon...</h3>
 
         <h2>How to make the app offline useable/ look like an app for Apple IOS?</h2>
         <p>1. Open Safari: Navigate to the website using the Safari browser on your iOS device. </p>
